@@ -1,0 +1,19 @@
+{
+  "name": "nopo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "np.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/me33x3/NOPO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/me33x3/NOPO/issues"
+  },
+  "homepage": "https://github.com/me33x3/NOPO#readme"
+}
