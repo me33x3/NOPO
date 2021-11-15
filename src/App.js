@@ -1,7 +1,6 @@
-import React, {  useEffect }  from 'react';
+import React, { useEffect }  from 'react';
 import logo from './logo.svg';
 import './App.css';
-
 
 // axios 추가
 import axios from 'axios';
@@ -14,7 +13,6 @@ function App() {
       .then(res => console.log(res))
       .catch()
   })
-
 
   return (
     <div className="App">

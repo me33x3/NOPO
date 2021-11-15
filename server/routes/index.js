@@ -1,9 +1,15 @@
-const express = require('express');
-const router = express();
+// import express from 'express';
+
+import { Router } from 'express'
+
+export const router = Router()
+
+// const express = require('express');
+// export const router = express();
  
 // http://localhost:4000/ 으로 접속 시 응답메시지 출력
 router.get('/test', (req,res) => {
     res.send({ test : "this is test!!"});
 })
  
-module.exports = router;
+// module.exports = router;
