@@ -1,15 +1,11 @@
 import React, { useEffect }  from 'react';
+import axios from 'axios';
 import logo from './logo.svg';
 import './App.css';
 
-// axios 추가
-import axios from 'axios';
-
 function App() {
-
-  // 서버에서 받은 데이터를 console로 찍어서 확인한다.
   useEffect(() => {
-    axios.get('/api/test')
+    axios.get('/api/user/')
       .then(res => console.log(res))
       .catch()
   })
