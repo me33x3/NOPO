@@ -24,8 +24,6 @@ export function initDatabase(options = {}) {
     ...config.mysql,
     ...options,
   })
-
-  console.log('init!!!')
 }
 
 export function closeDatabaseAsync() {
