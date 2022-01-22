@@ -1,14 +1,18 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import { Main, Login } from "./pages";
+import { Header } from './components';
+import { Main, Login, Register } from "./pages";
 
 function App() {
   return (
     <Fragment>
+      <Header />
+
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Main/>} />
-          <Route exact path="/login" element={<Login/>} />
+          <Route exact path="/signin" element={<Login/>} />
+          <Route exact path="/signup" element={<Register/>} />
         </Routes>
       </BrowserRouter>
     </Fragment>

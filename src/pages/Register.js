@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
 
-function Login() {
+function Register () {
     return (
         <Fragment>
-            Login Page
+            Register Page
         </Fragment>
     );
 }
 
-export default Login;
+export default Register;
